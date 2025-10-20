@@ -1,8 +1,8 @@
-var photos = document.getElementsByClassName('dailyPhoto');
+let photos = document.getElementsByClassName('dailyPhoto');
 
 function changePhoto(index) {
-    var oldPhoto = document.getElementsByClassName('active')[0];
-    var newPhoto = photos[index];
+    let oldPhoto = document.getElementsByClassName('active')[0];
+    let newPhoto = photos[index];
 
     if (newPhoto) {
         if (oldPhoto) {

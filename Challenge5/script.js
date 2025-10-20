@@ -1,4 +1,4 @@
-var data = {
+let data = {
 	transactionData: [
 		{
 			submissionDate: '07/08/2020',
